@@ -1,0 +1,92 @@
+// var chartData5 =[
+//     {   
+//         "date": "Mon Nov 15 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",
+//         "value": 101,
+//         "volume": 487
+//     },
+//     {   
+//         "date": "Tue Nov 16 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",
+//         "value": 142,
+//         "volume": 411
+//     },
+//     {   
+//         "date": "Wed Nov 17 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",      
+//         "value":100,
+//         "volume":1000
+//     },
+//     {   
+//         "date": "Thu Nov 18 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",        
+//         "value":300,
+//         "volume":-400
+//     },
+//     {   
+//         "date": "Fri Nov 19 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",       
+//         "value": 360,
+//         "volume": 100
+//     },
+//     {   
+//         "date": "Sun Nov 20 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",      
+//         "value": 250,
+//         "volume": -360
+//     }
+// ]
+
+var data =[
+    {   
+
+    "title": "Programado",
+        "fieldMappings": [{
+            "fromField": "value",
+            "toField": "value"
+        }, {
+            "fromField": "volume",
+            "toField": "volume"
+        }],
+        "dataProvider": [
+            {   
+            "date": "Mon Nov 15 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",
+            "value": 142,
+            "volume": 411
+            }
+        ],
+        "categoryField": "date"
+    },
+    {   
+
+    "title": "Finalizado",
+        "fieldMappings": [{
+            "fromField": "value",
+            "toField": "value"
+        }, {
+            "fromField": "volume",
+            "toField": "volume"
+        }],
+        "dataProvider": [
+            {   
+            "date": "Tue Nov 16 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",
+            "value": 200,
+            "volume": 121
+            }
+        ],
+        "categoryField": "date"
+    },
+    {   
+
+    "title": "Reprogramado",
+        "fieldMappings": [{
+            "fromField": "value",
+            "toField": "value"
+        }, {
+            "fromField": "volume",
+            "toField": "volume"
+        }],
+        "dataProvider": [
+            {   
+            "date": "Wed Nov 17 2015 00:00:00 GMT-0500 (Hora est. Pacífico, Sudamérica)",      
+            "value": 150,
+            "volume":300
+            }
+        ],
+        "categoryField": "date"
+    }
+]

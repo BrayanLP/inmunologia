@@ -1,0 +1,12 @@
+Ruta: http://www.congresospi-uaai.com/cpanel   
+ 
+-          Usuario            :           congresospiua
+-          Contraseña      :           Zd#T[JS0!Z@W
+ 
+FTP:
+Con los accesos FTP su diseñador gráfico podrá subir su Página Web utilizando un cliente FTP como el FileZilla. (Estos accesos no son para publicar la página web desde el constructor web BaseKit, el constructor web BaseKit tiene su propio botón para publicar la página web)
+ 
+-          Servidor                      :           congresospi-uaai.com
+-          Usuario                       :           usuarioftp@congresospi-uaai.com
+-          Contraseña                  :           Zd#T[JS0!Z@W
+-          Puerto de Servidor: 21
